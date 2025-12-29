@@ -1,0 +1,106 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Mon Dec 29 01:07:43 2025
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   .org_1       code   0x000004    program   0x0002b4
+                   .org_2       code   0x000500    program   0x000024
+.config_2007_BUILD/DEFAULT/PRODUCTION/BOARD1_       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x00015d      
+                            0x000500    0x000511      
+                            0x002007    0x002007      
+            368 out of 8454 program addresses used, program memory utilization is 4%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                CALC_HUND   0x000123    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                CALC_TENS   0x00012a    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+               CHECK_2SEC   0x00001c    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+            CHECK_SET_CMD   0x000089    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+             CHECK_TIMER0   0x000010    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                  COMPARE   0x000054    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+               DELAY_LOOP   0x00015b    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+         DISP_DELAY_SHORT   0x000159    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                  GET_ADC   0x000031    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+             GET_SEG_CODE   0x000500    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                  GREATER   0x000059    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                      ISR   0x000004    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                 ISR_EXIT   0x00002c    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                     LOOP   0x0000fd    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+               PREP_A_VAL   0x000113    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+               PREP_D_VAL   0x00010e    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+               PREP_F_VAL   0x000118    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+             PROCESS_UART   0x000070    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+   REFRESH_DISPLAY_MANUAL   0x000103    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                SEND_D_TF   0x000094    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                SEND_D_TI   0x000097    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                 SEND_FAN   0x0000a0    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                  SEND_TF   0x00009a    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                  SEND_TI   0x00009d    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                 SETTINGS   0x0000af    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                 SET_D_TF   0x00008c    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                 SET_D_TI   0x000090    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                 SHOW_NOW   0x000131    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                  SMALLER   0x00006b    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+        START_DISPLAY_SEQ   0x00011c    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+              TABLE_START   0x000505    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                TMR0_DONE   0x00002b    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                UART_SEND   0x0000a3    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                 WAIT_ADC   0x000051    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                  WAIT_TX   0x0000a6    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                      ISR   0x000004    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+             CHECK_TIMER0   0x000010    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+               CHECK_2SEC   0x00001c    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                TMR0_DONE   0x00002b    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                 ISR_EXIT   0x00002c    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                  GET_ADC   0x000031    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                 WAIT_ADC   0x000051    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                  COMPARE   0x000054    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                  GREATER   0x000059    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                  SMALLER   0x00006b    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+             PROCESS_UART   0x000070    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+            CHECK_SET_CMD   0x000089    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                 SET_D_TF   0x00008c    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                 SET_D_TI   0x000090    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                SEND_D_TF   0x000094    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                SEND_D_TI   0x000097    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                  SEND_TF   0x00009a    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                  SEND_TI   0x00009d    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                 SEND_FAN   0x0000a0    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                UART_SEND   0x0000a3    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                  WAIT_TX   0x0000a6    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                 SETTINGS   0x0000af    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                     LOOP   0x0000fd    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+   REFRESH_DISPLAY_MANUAL   0x000103    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+               PREP_D_VAL   0x00010e    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+               PREP_A_VAL   0x000113    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+               PREP_F_VAL   0x000118    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+        START_DISPLAY_SEQ   0x00011c    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                CALC_HUND   0x000123    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                CALC_TENS   0x00012a    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+                 SHOW_NOW   0x000131    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+         DISP_DELAY_SHORT   0x000159    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+               DELAY_LOOP   0x00015b    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+             GET_SEG_CODE   0x000500    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+              TABLE_START   0x000505    program     static C:\Users\batuh\OneDrive\Desktop\mikro comp\projekodlar\BOARD1LAST.X\BOARD1_LAST.asm
+
+
